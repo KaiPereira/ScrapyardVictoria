@@ -1,11 +1,15 @@
 html,
 body {
-  max-width: 100vw;
+  width: 100vw;
   overflow-x: hidden;
+  background: radial-gradient(#003C53, #000B0F);
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
 }
 
 body {
-  font-family: var(--font-silkscreen);
+  font-family: var(--font-silkscreen) !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -19,4 +23,9 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+:root {
+  --main-color: #3BD92C;
+  --text-color: #A6EF30;
 }

@@ -1,0 +1,39 @@
+.NES {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    height: 100vh;
+    background: url("/NES_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.alignement {
+    padding-top: 100px;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+.header {
+    font-size: 75px;
+    font-weight: 700;
+    color: var(--main-color);
+}
+
+.subHeader {
+    color: var(--main-color);
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.mainText {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 50px;
+}
