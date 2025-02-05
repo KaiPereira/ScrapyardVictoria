@@ -13,10 +13,15 @@ export default function Home() {
               Coming March 15th, Scrapyard victoria will be an in-person hackathon where participants will be challenged to build stupid s#!t and get stupid prizes. 
             </p>
             <p>
-              from 8am to 11pm, Bring your laptop and we’ll provide food, water and give out prizes at the end!
+              From 8am to 11pm, Bring your laptop and we’ll provide food, water and give out prizes at the end!
+            </p>
+            <p>
+              The hackathon will take place at 
             </p>
           </div>
+          <button type="button" className={`nes-btn is-success ${styles.button}`}>Signup</button>
         </div>
+        <img src="/ghost_red.svg" alt="blue ghost" className={styles.ghost} />
       </div>
     </>
   );

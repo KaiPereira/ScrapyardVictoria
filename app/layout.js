@@ -9,7 +9,11 @@ const silkscreen = Silkscreen({
   subsets: ["latin"],
 });
 
-const pressStart2P = Press_Start_2P({ weight: "400", subsets: ["latin"] });
+const pressStart2P = Press_Start_2P({ 
+  weight: "400", 
+  subsets: ["latin"],
+  variable: "--font-press-start"
+});
 
 export const metadata = {
   title: "Scrapyard Victoria - Build stupid s#!t, get stupid prizes",
