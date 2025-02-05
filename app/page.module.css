@@ -1,4 +1,5 @@
 .NES {
+    overflow: hidden;
     position: relative;
     display: flex;
     justify-content: center;
@@ -53,4 +54,26 @@
 .ghost {
     position: absolute;
     width: 50px;
+    animation: 10s infinite linear ghost1; 
+}
+
+@keyframes ghost1 {
+    0% {
+        left: -5%;
+    }
+    
+    50% {
+        left: 100%;
+    }
+
+    50% {
+        -moz-transform: scale(-1, 1);
+        -o-transform: scale(-1, 1);
+        -webkit-transform: scale(-1, 1);
+        transform: scale(-1, 1);
+    }
+
+    100% {
+        left: -5%;
+    }
 }
