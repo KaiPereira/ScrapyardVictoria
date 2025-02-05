@@ -34,6 +34,9 @@
 }
 
 .mainText {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
     color: var(--text-color);
     font-weight: 400;
     font-size: 22px;
