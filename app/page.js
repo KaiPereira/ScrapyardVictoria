@@ -17,7 +17,7 @@ export default function Home() {
               The event will take place for highschoolers at "777 Fort Street" from 9am to 10pm. Bring your laptop (and hardware if you want) and we'll provide everyone with food, drinks and everything else! 
             </p>
           </div>
-          <button type="button" className={`nes-btn is-success ${styles.button}`} onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLSf5RgHjPqirWmT9isyY-qCpgK5quhx3AvKRz_8-OKqqhlgMFg/viewform?usp=dialog", '_blank').focus()}>Signup</button>
+          <button type="button" className={`nes-btn is-success ${styles.button}`} onClick={() => window.open("https://forms.hackclub.com/scrapyard-signup", '_blank').focus()}>Signup</button>
         </div>
         <img src="/ghost_red.svg" alt="blue ghost" className={styles.ghost_red1} />
         <img src="/ghost_red.svg" alt="blue ghost" className={styles.ghost_red2} />
