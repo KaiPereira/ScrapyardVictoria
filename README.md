@@ -1,6 +1,10 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⭐ Scrapyard Victoria! ⭐
 
-## Getting Started
+Coming March 15th, Scrapyard Victoria will be an in-person, highschool hackathon where participants will be challenged to build stupid s#!t and get stupid prizes.
+
+The event will take place for highschoolers at "777 Fort Street" from 9am to 10pm. Bring your laptop (and hardware if you want) and we'll provide everyone with food, drinks and everything else! 
+
+## Website Setup
 
 First, run the development server:
 
